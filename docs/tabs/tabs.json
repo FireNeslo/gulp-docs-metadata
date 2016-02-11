@@ -1,0 +1,31 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attributes"
+    ],
+    "../../models": [
+      "models"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./tabs.jade": [
+      "template"
+    ]
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-tabs>\n    <ft-tab>Tab 1</ft-tab>\n    <ft-tab class=\"active\">Tab 2</ft-tab>\n  </ft-tabs>"
+  ],
+  "param": [
+    "{string} type"
+  ],
+  "description": [
+    "A container for a set of tabs. Provides styling, but no logic. There is no\n  expectation that tabs will reveal content, rather that they will be used\n  as pretty radio buttons."
+  ],
+  "name": "Tabs"
+}

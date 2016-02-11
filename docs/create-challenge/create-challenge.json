@@ -1,0 +1,29 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "../../models": [
+      "Challenge",
+      "User",
+      "Season"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./create-challenge.jade": [
+      "template"
+    ],
+    "../edit-fixtures/edit-fixtures": [],
+    "../dropdown/dropdown": [],
+    "../toggle/toggle": [],
+    "../../services/notification": [
+      "notification"
+    ]
+  },
+  "name": "CreateChallenge"
+}

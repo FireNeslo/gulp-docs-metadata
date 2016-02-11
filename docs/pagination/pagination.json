@@ -1,0 +1,35 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attributes"
+    ],
+    "../../lib/clamp": [
+      "clamp"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./pagination.jade": [
+      "template"
+    ],
+    "../icons/icons": []
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-pagination current=\"0\" total=\"100\" display=\"5\"></ft-pagination>"
+  ],
+  "param": [
+    "{integer} current\n  The current page to center around. Starts at 0."
+  ],
+  "event": [
+    "{page} change:page\n  Current page has changed."
+  ],
+  "description": [
+    "Controls for pagination. A page can be selected in various ways, and this\n  widget will emit the number of whatever page has been changed to.\n  Pages are assumed to be 0-indexed."
+  ],
+  "name": "Pagination"
+}

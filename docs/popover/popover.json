@@ -1,0 +1,30 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component"
+    ],
+    "./popover.jade": [
+      "template"
+    ],
+    "../../models": [
+      "models"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "diff-dom": [
+      "Differ"
+    ]
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-popover>Hi I'm content</ft-popover>"
+  ],
+  "description": [
+    "A that appears when its parent is hovered over or\n  clicked on."
+  ],
+  "name": "Popover"
+}

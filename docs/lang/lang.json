@@ -1,0 +1,31 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attributes"
+    ],
+    "../../services/translation": [
+      "locale"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./lang.jade": [
+      "template"
+    ]
+  },
+  "author": [
+    "Øystein Ø. Olsen [oystein@globalit.no]"
+  ],
+  "example": [
+    "<ft-lang locale=\"no\"></ft-lang>"
+  ],
+  "param": [
+    "{string} locale\n  The locale to use."
+  ],
+  "description": [
+    "The locale for all ft-components will be changed by using this widget."
+  ],
+  "name": "Lang"
+}

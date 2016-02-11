@@ -1,0 +1,26 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attribute"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "../../models": [
+      "Tournament",
+      "RealMatch"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./tournament-duration.jade": [
+      "template"
+    ],
+    "../popover/popover": [],
+    "../gameweeks/gameweeks": [],
+    "../fixtures/fixtures": []
+  },
+  "name": "TournamentDuration"
+}

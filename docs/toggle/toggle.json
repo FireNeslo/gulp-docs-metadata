@@ -1,0 +1,35 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attributes"
+    ],
+    "../../models": [
+      "models"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./toggle.jade": [
+      "template"
+    ],
+    "../icons/icons": []
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-toggle></ft-toggle>"
+  ],
+  "param": [
+    "{boolean} [checked]\n  Whether or not the toggle should be checked."
+  ],
+  "event": [
+    "{checked, value} toggle\n  The checkbox was toggled one way or the other."
+  ],
+  "description": [
+    "A checkbox with custom styling."
+  ],
+  "name": "Toggle"
+}

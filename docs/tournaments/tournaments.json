@@ -1,0 +1,44 @@
+{
+  "imports": {
+    "moment": [
+      "moment"
+    ],
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attributes"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "./tournaments.jade": [
+      "template"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "../../models": [
+      "Tournament"
+    ],
+    "../icons/icons": [],
+    "../pagination/pagination": [],
+    "../tournament-filter/tournament-filter": [],
+    "../tournament-duration/tournament-duration": [],
+    "../../lib/debounce": [
+      "debounce"
+    ]
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-tournaments></ft-tournaments>"
+  ],
+  "param": [
+    "{integer} [season]\n  The season to show matches for."
+  ],
+  "event": [
+    "{tournament} participate:tournament\n  The user has made an action to participate in the tournament."
+  ],
+  "name": "Tournaments"
+}

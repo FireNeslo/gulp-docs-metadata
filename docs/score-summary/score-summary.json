@@ -1,0 +1,33 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "../../models": [
+      "FantasyTeam"
+    ],
+    "./score-summary.jade": [
+      "template"
+    ],
+    "../../services/config": [
+      "config"
+    ]
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-score-summary team=\"50674\"></ft-score-summary>"
+  ],
+  "param": [
+    "{integer} team\n  The id of the fantasy team to show substitutions for."
+  ],
+  "description": [
+    "Small widget with score info for a fantasy team."
+  ],
+  "name": "ScoreSummary"
+}

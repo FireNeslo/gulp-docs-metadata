@@ -1,0 +1,35 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component"
+    ],
+    "../../models": [
+      "RealMatch"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./live-results.jade": [
+      "template"
+    ],
+    "../results/results": [],
+    "../player-stats-table/player-stats-table": [],
+    "../fixtures/fixtures": [],
+    "../seasons/seasons": [],
+    "../gameweeks/gameweeks": []
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-live-results></ft-live-results>"
+  ],
+  "param": [
+    "{number} season=\n  The id of the season to present."
+  ],
+  "description": [
+    "A collection of widgets showing the states of real matches. A match can\n  be selected in the fixtures widget, and will then be displayed in the event\n  and stats widgets."
+  ],
+  "name": "LiveResults"
+}

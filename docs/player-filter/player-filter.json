@@ -1,0 +1,29 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attribute"
+    ],
+    "../../models": [
+      "Tournament",
+      "RealPlayer",
+      "RealTeam"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "./player-filter.jade": [
+      "template"
+    ],
+    "../dropdown/dropdown": [],
+    "../toggle/toggle": [],
+    "../../lib/debounce": [
+      "debounce"
+    ]
+  },
+  "name": "PlayerFilter"
+}

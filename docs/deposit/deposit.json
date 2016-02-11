@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component"
+    ],
+    "../../models": [
+      "models"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./deposit.jade": [
+      "template"
+    ]
+  },
+  "name": "Deposit"
+}

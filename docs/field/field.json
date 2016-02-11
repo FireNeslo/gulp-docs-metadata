@@ -1,0 +1,40 @@
+{
+  "imports": {
+    "../player/player": [],
+    "../../lib": [
+      "Template",
+      "Component"
+    ],
+    "../../models": [
+      "FantasyTeam"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "./field.jade": [
+      "template"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "ordinal": [
+      "english"
+    ],
+    "fn-drag-drop": [
+      "fnDragDrop"
+    ]
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-field team=\"50674\"></ft-field>"
+  ],
+  "param": [
+    "{number} team\n  The id of the fantasy team to represent."
+  ],
+  "description": [
+    "A sports field representing a fantasy team. The background will change to\n  depending on the game type of the fantasy team's league.\n  Fantasy players are presented in rows grouped by position.\n  Many sub-widgets contain detailed information about the result and status\n  of the matches each player are playing the given or current gameweek.\n \n  Additional widgets can be placed inside of the field by enclosing\n  them inside the ft-field tag content."
+  ],
+  "name": "Field"
+}

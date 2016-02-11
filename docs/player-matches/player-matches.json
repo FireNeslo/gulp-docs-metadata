@@ -1,0 +1,35 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component"
+    ],
+    "../../models": [
+      "FantasyPlayer",
+      "Gameweek"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./player-matches.jade": [
+      "template"
+    ],
+    "../player-stats/player-stats": []
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-player-matches gameweek=\"48968\" player=\"1547807\"></ft-player-matches>"
+  ],
+  "param": [
+    "{number} gameweek\n  The id of the gameweek to present."
+  ],
+  "description": [
+    "Shows every match a fantasy player is related to in the gameweek, all the\n  stats about the player's participations (if any), and the compound status."
+  ],
+  "name": "PlayerMatches"
+}

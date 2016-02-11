@@ -1,0 +1,28 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attributes"
+    ],
+    "../../models": [
+      "models"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./accordion.jade": [
+      "template"
+    ]
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-accordion>\n   <header>I'm the accordion header</header>\n   <div>I'm the accordion content.</div>\n  </ft-accordion>"
+  ],
+  "description": [
+    "An accordion that expand and contracts when the accordion header is clicked.\n  It is different from a dropdown in that it has an animation and pushes down\n  content below it."
+  ],
+  "name": "Accordion"
+}

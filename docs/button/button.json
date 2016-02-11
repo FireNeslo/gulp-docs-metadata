@@ -1,0 +1,18 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component"
+    ],
+    "../../models": [
+      "models"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./button.jade": [
+      "template"
+    ]
+  },
+  "name": "Button"
+}

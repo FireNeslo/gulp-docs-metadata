@@ -1,0 +1,35 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attributes"
+    ],
+    "../../models": [
+      "models"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./radio-collection.jade": [
+      "template"
+    ],
+    "../toggle/toggle": []
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-radio-collection id=\"pet-preference\"></ft-radio-collection>\n  document.findElementById('pet-preference').fields = ['cats', 'dogs']"
+  ],
+  "param": [
+    "{string} [selected]\n  Which field should be selected."
+  ],
+  "event": [
+    "{selected} change:radios\n  A radio button was selected."
+  ],
+  "description": [
+    "A set of radio buttons."
+  ],
+  "name": "RadioCollection"
+}

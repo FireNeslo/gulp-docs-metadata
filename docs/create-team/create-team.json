@@ -1,0 +1,59 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attribute"
+    ],
+    "../../models": [
+      "FantasyTeam",
+      "RealPlayer",
+      "RealTeamMembership",
+      "SavedTeam"
+    ],
+    "../../lib/utils": [
+      "camelCase"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./create-team.jade": [
+      "template"
+    ],
+    "../../workers/autocomplete.blob": [
+      "AutocompleteBlob"
+    ],
+    "../../services/notification": [
+      "notification"
+    ],
+    "../field/field": [],
+    "../player-table/player-table": [],
+    "../player-filter/player-filter": [],
+    "../tournament-duration/tournament-duration": [],
+    "../accordion/accordion": [],
+    "../tournament-show/tournament-show": [],
+    "../icons/icons": [],
+    "../saved-teams/saved-teams": [
+      "SavedTeams"
+    ],
+    "../../services/modal": [
+      "Modal"
+    ]
+  },
+  "author": [
+    "Tony A. Sæle [tony@globalit.no]"
+  ],
+  "example": [
+    "<ft-create-team tournament=\"3561\"></ft-create-team>"
+  ],
+  "param": [
+    "{integer} [tournament]\n  The id of the tournament to create a team for."
+  ],
+  "description": [
+    "A collection of widgets that allow the user to create a team for a tournament\n  or edit an existing one."
+  ],
+  "name": "CreateTeam"
+}

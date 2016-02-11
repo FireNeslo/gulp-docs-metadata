@@ -1,0 +1,19 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component"
+    ],
+    "../../models": [
+      "models"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./modal.jade": [
+      "template"
+    ],
+    "../icons/icons": []
+  },
+  "name": "Modal"
+}

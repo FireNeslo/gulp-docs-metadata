@@ -1,0 +1,39 @@
+{
+  "imports": {
+    "lodash.groupby": [
+      "groupBy"
+    ],
+    "../../lib": [
+      "Template",
+      "Component"
+    ],
+    "../../models": [
+      "RealMatch"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./edit-fixtures.jade": [
+      "template"
+    ],
+    "../match-status/match-status": [],
+    "../toggle/toggle": [],
+    "../accordion/accordion": []
+  },
+  "author": [
+    "Tony A. Sæle [oystein@globalit.no]"
+  ],
+  "example": [
+    "<ft-edit-fixtures season=\"46\"></ft-fixtures>"
+  ],
+  "param": [
+    "{integer} season\n  The season to show matches for."
+  ],
+  "description": [
+    "This widget will show a list of remaining matches in a season and allow\n  the user to select them."
+  ],
+  "name": "EditFixtures"
+}

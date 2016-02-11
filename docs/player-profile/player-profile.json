@@ -1,0 +1,27 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attribute"
+    ],
+    "../../models": [
+      "RealPlayer",
+      "Season"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./player-profile.jade": [
+      "template"
+    ],
+    "../button/button": [],
+    "../icons/icons": [],
+    "../player-match/player-match": [],
+    "../seasons/seasons": []
+  },
+  "name": "PlayerProfile"
+}

@@ -1,0 +1,25 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attribute"
+    ],
+    "../../models": [
+      "RealMatch",
+      "RealTeamMembership",
+      "RealPlayerMatchStat"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./player-match.jade": [
+      "template"
+    ],
+    "../icons/icons": []
+  },
+  "name": "PlayerMatch"
+}

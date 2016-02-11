@@ -1,0 +1,25 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attribute"
+    ],
+    "../../models": [
+      "RealPlayerMatchStat"
+    ],
+    "../../services/translation": [
+      "Translation"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./player-stats-card.jade": [
+      "template"
+    ],
+    "../icons/icons": [],
+    "../popover/popover": [],
+    "../player-stats/player-stats": []
+  },
+  "name": "PlayerStatsCard"
+}

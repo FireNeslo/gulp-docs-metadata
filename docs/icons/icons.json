@@ -1,0 +1,28 @@
+{
+  "imports": {
+    "../../lib": [
+      "Template",
+      "Component",
+      "Attributes"
+    ],
+    "../../lib/element": [
+      "element"
+    ],
+    "../../services/config": [
+      "config"
+    ],
+    "./icons.svg": [
+      "iconset"
+    ]
+  },
+  "author": [
+    "Øystein Ø. Olsen [oystein@globalit.no]"
+  ],
+  "example": [
+    "<ft-icon name=\"football--goal\"></ft-icon>"
+  ],
+  "description": [
+    "An icon from our svg icon set. Event icons are namespaced by sport and\n  many are available."
+  ],
+  "name": "Icon"
+}
