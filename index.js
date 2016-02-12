@@ -9,9 +9,9 @@ module.exports = function jsonDocs(options) {
   options.comments = true
   options.presets.push(require("babel-preset-es2015"))
   options.presets.push(require("babel-preset-stage-0"))
+  options.plugins.push(docify)
   options.plugins.push(require("babel-plugin-transform-decorators-legacy").default)
   options.plugins.push(require("babel-plugin-transform-class-properties"))
-  options.plugins.push(docify)
 
   function onFile(file, ecoding, callback) {
     var contents = babel.transform(file.contents.toString(), options).code

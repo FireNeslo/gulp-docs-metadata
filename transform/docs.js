@@ -32,7 +32,7 @@ module.exports = function annotate(babel) {
             var annotation = /@([^\s]+\n?)([^\n]+\n[^@]+)/gm
             comment.value.replace(annotation, function(_, key, value) {
               metadata[key = key.trim()] || (metadata[key] = [])
-                .push(value.replace(/\*/g, '').trim())
+              metadata[key].push(value.replace(/\*/g, '').trim())
             })
           })
         },
