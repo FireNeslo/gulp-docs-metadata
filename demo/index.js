@@ -10,6 +10,6 @@ import {RealTeam} from "./lib/models";
 @Attribute('team', RealTeam)
 class Hello {
   constructor(world) {
-
+    this.emit('neat:stuff', {world})
   }
 }

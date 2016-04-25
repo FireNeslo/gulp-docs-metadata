@@ -6,3 +6,8 @@ gulp.task('default', function() {
     .pipe(docs())
     .pipe(gulp.dest('docs'))
 })
+gulp.task('demo', function() {
+  return gulp.src('demo/**/*.js')
+    .pipe(docs())
+    .pipe(gulp.dest('docs'))
+})

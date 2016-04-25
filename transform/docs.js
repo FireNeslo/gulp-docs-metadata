@@ -4,6 +4,15 @@ module.exports = function annotate(babel) {
   var metadata = null, programs = []
   return {
     visitor: {
+      CallExpression(path) {
+        if(!metadata.events) metadata.events = []
+        if(path.node.callee.property) {
+          var method = path.node.callee.property.name
+        }
+        if(method === 'emit') {
+          metadata.events.push(path.node.arguments[0].value)
+        }
+      },
       ClassExpression(path) {
         metadata.name = path.node.id.name
         if(!path.node.decorators) return;
